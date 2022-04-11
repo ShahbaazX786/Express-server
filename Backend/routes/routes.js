@@ -15,7 +15,6 @@ router.get('/',(req,res)=>{
     })
 });
 
-
 //get api by id
 router.get('/:id',(req,res)=>{
     if(ObjectId.isValid(req.params.id)){
@@ -71,7 +70,6 @@ router.put('/:id',(req,res)=>{
     }
 });
 
-
 //delete api by id
 router.delete('/:id',(req,res)=>{
     if(ObjectId.isValid(req.params.id)){
@@ -86,6 +84,5 @@ router.delete('/:id',(req,res)=>{
         return res.status(400).send('No record found with given id:'+ req.params.id);
     }
 });
-
 
 module.exports=router;
