@@ -10,3 +10,4 @@ This is a server I created as a repo to just import the code and modify in proje
 <br>
     -->Ps: To run server just exec command "Nodemon app.js" or "Nodemon start" in terminal.
 </pre>
+Sauce: Ux Trendz Mean Stack App
